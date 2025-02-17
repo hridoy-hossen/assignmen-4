@@ -22,5 +22,4 @@ function  willSuccess( marks ) {
         return 'invalid'
     }
 }
-let markNum = willSuccess(examMark)
-console.log(markNum);
+
