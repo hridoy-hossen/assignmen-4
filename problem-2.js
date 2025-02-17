@@ -28,9 +28,7 @@ function  validContact( contact ) {
         return 'invalid'
     }
 }
-const contact = '019905258p8';
-let valid = validContact(contact);
-console.log(valid);
+
 
     
 
