@@ -13,7 +13,7 @@ function  validContact( contact ) {
                             return false;
                         }
                     }
-                    return false;
+                    return true;
                 }
             }
             else{
@@ -28,7 +28,6 @@ function  validContact( contact ) {
         return 'invalid'
     }
 }
-
 
     
 
