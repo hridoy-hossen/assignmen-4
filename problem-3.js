@@ -1,4 +1,4 @@
-// Tasl-3 check an array of marks and justify will he succed or not.
+
 function  willSuccess( marks ) {
     let passNum = [];
     let failNum = [];

@@ -1,5 +1,5 @@
-// calculate VAT..
-const price = '101';
+
+
 function calculateVAT( price ) {
     if(typeof price === 'string'){
         return 'invalid';

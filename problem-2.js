@@ -1,4 +1,4 @@
-// this function validate bangladeshi numbers 
+ 
 function  validContact( contact ) {
     let englishAlphabet = "abcdefghijklmnopqrstuvwxyz";
     if(typeof contact === 'string'){
@@ -8,7 +8,7 @@ function  validContact( contact ) {
                     return false;
                 }
                 else{
-                    for(let i of englishAlphabet){ //extra kaj korechi eta kintu task e bole nai.....
+                    for(let i of englishAlphabet){
                         if(contact.includes(i)){
                             return false;
                         }
